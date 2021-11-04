@@ -17,7 +17,7 @@ const Header = () => {
     
     return (
         <HeaderStyled open={burger}>
-            <img src="images/logo.svg" alt="sunnyside_logo" />
+            <img src="/images/logo.svg" alt="sunnyside_logo" />
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
