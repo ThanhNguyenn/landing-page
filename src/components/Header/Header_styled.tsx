@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import Header from ".";
 
-interface Props {
+interface Props  {
     open: boolean;
 }
 
@@ -91,7 +91,6 @@ const HeaderStyled = styled.div<Props> `
         div {
             div:nth-child(1) {
                 transform: ${({open}) => open ? 'rotate(33deg)' : 'rotate(0)'};
-                
             }
 
             div:nth-child(2) {
